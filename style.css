@@ -1,0 +1,23 @@
+
+body { 
+    margin: auto;
+    font-family: 'Abel';font-size: 12px;
+    background-image: url(https://file.garden/ZWlUCY4S7Xz2vypS/archived%20backgrounds/colours/multicolour%20%26%20rainbow/bgpurpspace.gif);
+    background-repeat:round;
+    background-color: black;
+    color: rgb(144, 235, 141);
+}
+td {
+    border: 2px ridge rgb(165, 118, 90);
+    background-color: rgb(46, 46, 46);
+    opacity: 90%;
+    padding: 0;
+}
+
+
+funtitle{
+    color:rgb(169, 150, 202);
+    font-size: 17px;
+    font-weight:500;
+    font-style: oblique;
+}
