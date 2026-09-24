@@ -1,15 +1,55 @@
 
-body { 
-    margin: auto;
-    font-family: 'Abel';font-size: 12px;word-spacing: 0%;
-    background-image: url(https://file.garden/ZWlUCY4S7Xz2vypS/archived%20backgrounds/colours/multicolour%20%26%20rainbow/bgpurpspace.gif);
-    background-repeat:round;
-    background-color: black;
+body {
+    font-family: calibri, verdana, arial;
+    letter-spacing: 1px;
+    line-height: 10px;
+    font-size: 10px;
+    background-image: url(clouds.jpg);
+    background-size: fill;
+    background-color: rgb(0, 0, 0);
     color: rgb(159, 127, 247);
+    margin: auto;
+}
 
+table {
+    background-color: rgb(56, 49, 43);
+    padding: 0;
+    text-align: justify;
 }
 td {
-    background-color: rgb(46, 46, 46);
-    opacity: 90%;
-    padding: 0;
+    border: 1px solid black;
+}
+
+td {
+    overflow:hidden;
+    vertical-align: top;
+}
+
+.trippyseperator {
+    background-image: url(trippy.gif);
+    font-size: 0;
+}
+.title {
+    background-color: rgb(255, 77, 22);
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.navigation {
+  background-color: #432d50;
+}
+
+.titlebar {
+    background-color: rgb(41, 38, 68);
+}
+
+.sidebar {
+    background-color: rgb(41, 38, 68);
+    color: rgb(119, 157, 240);
+}
+.maincontent {
+    background-color: #432d50;
+    color: antiquewhite;
 }
