@@ -10,9 +10,7 @@ body {
     color: rgb(159, 127, 247);
     margin: auto;
     display: table;
-    cursor: url('normal-cursor.png'), default;
-    word-break: break-all;
-    
+    cursor: url('normal-cursor.png'), default; 
 }
 
 table {
@@ -28,11 +26,7 @@ td {
 img {
     padding: 0;
     border-spacing: 0;
-}
-
-.trippyseperator {
-    background-image: url(trippy.gif);
-    font-size: 0;
+    vertical-align: top;
 }
 
 .title1 {
@@ -77,4 +71,10 @@ img {
     color: rgb(255, 251, 0);
     background-image: url(bg/mandelbrot.jpg);
     background-size:cover;
+}
+
+.right {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
 }
