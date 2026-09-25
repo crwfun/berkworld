@@ -4,33 +4,47 @@ body {
     letter-spacing: 1px;
     line-height: 10px;
     font-size: 10px;
-    background-image: url(clouds.jpg);
-    background-size: fill;
+    background-image: url(bg/clouds.jpg);
+    background-size:auto;
     background-color: rgb(0, 0, 0);
     color: rgb(159, 127, 247);
     margin: auto;
+    display: table;
+    cursor: url('normal-cursor.png'), default;
+    word-break: break-all;
+    
 }
 
 table {
     background-color: rgb(56, 49, 43);
-    padding: 0;
-    text-align: justify;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 td {
-    border: 1px solid black;
+    vertical-align: top;
+    padding: 0%;
 }
 
-td {
-    overflow:hidden;
-    vertical-align: top;
+img {
+    padding: 0;
+    border-spacing: 0;
 }
 
 .trippyseperator {
     background-image: url(trippy.gif);
     font-size: 0;
 }
-.title {
-    background-color: rgb(255, 77, 22);
+
+.title1 {
+    background-color: rgb(239, 255, 22);
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.title2 {
+
+    background-color: rgb(208, 22, 255);
     color: black;
     text-align: center;
     font-weight: bolder;
@@ -49,7 +63,18 @@ td {
     background-color: rgb(41, 38, 68);
     color: rgb(119, 157, 240);
 }
-.maincontent {
-    background-color: #432d50;
+.content1 {
     color: antiquewhite;
+}
+
+.content2 {
+    color: antiquewhite;
+    background-image: url(bg/clouds2.jpg);
+    background-size:cover;
+}
+
+.content3 {
+    color: rgb(255, 251, 0);
+    background-image: url(bg/mandelbrot.jpg);
+    background-size:cover;
 }
