@@ -5,7 +5,7 @@ body {
     line-height: 10px;
     font-size: 10px;
     background-image: url(bg/clouds.jpg);
-    background-size:auto;
+    background-size:cover;
     background-color: rgb(0, 0, 0);
     color: rgb(159, 127, 247);
     margin: auto;
